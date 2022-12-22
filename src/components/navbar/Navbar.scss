@@ -1,0 +1,21 @@
+.navs{
+    padding: 1rem 0;
+    background-color: #efefef;
+
+    &-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h3{
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #252525;
+            margin: 0;
+        }
+        a{
+            color: #252525;
+            text-decoration: none;
+        }
+    }
+}
